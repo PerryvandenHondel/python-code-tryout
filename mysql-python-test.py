@@ -37,7 +37,7 @@ def main():
     records = cursor.fetchall()
     print("Total number of rows in environment_env is: ", cursor.rowcount)
 
-    print('ID====== Code=== Description==================== RCD==================== RLU===============')
+    print('ID====== Code=== Description==================== RCD==================== RLU================')
     for row in records:
         print(row[0], '\t', row[1], '\t',  row[2], '\t', row[3], '\t', row[4])
 
